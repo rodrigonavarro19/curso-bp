@@ -7,7 +7,6 @@ import java.util.List;
 import estructura.adapter.nuevo.IRepositorioUsuarios;
 
 public class LoggerUsuarios {
-    private IRepositorioUsuarios repo;
     private List<String> colaMensajes = new ArrayList<>();
 
     public IRepositorioUsuarios inicializar(IRepositorioUsuarios base) {
