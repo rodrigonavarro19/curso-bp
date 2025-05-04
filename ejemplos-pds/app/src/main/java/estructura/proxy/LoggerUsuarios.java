@@ -1,3 +1,4 @@
+// Modificación simmple solo para probar Github Actions
 package estructura.proxy;
 
 import java.lang.reflect.Proxy;
