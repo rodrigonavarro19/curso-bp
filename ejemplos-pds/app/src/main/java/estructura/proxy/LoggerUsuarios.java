@@ -1,4 +1,4 @@
-// Modificación simmple solo para probar Github Actions
+// Modificación simple para probar Github Actions
 package estructura.proxy;
 
 import java.lang.reflect.Proxy;
