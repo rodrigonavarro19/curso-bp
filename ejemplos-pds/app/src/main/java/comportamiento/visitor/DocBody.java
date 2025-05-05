@@ -1,5 +1,6 @@
 package comportamiento.visitor;
 
+// Comentario para ver efecto en actions
 public class DocBody implements DocComponent {
     private String contenido;
 
