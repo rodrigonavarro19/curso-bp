@@ -7,7 +7,8 @@ import estructura.adapter.nuevo.IRepositorioUsuarios;
 import estructura.adapter.nuevo.IUsuario;
 import estructura.adapter.nuevo.Perfil;
 
-// TODO: extraer superclase para evita duplicidad con RepositorioUsuarios
+/** @todo Extraer superclase para evita duplicidad con RepositorioUsuariosImpl.
+ */
 public class RepositorioObserver implements IRepositorioUsuarios {
     private List<IUsuario> usuarios;
     private List<IReceptor> receptores;

@@ -10,6 +10,11 @@ public final class GestorValidadores {
         actual = nuevo;
     }
 
+    /**
+     * Ejecuta las validaciones aplicables a un ticket entregado como parámetros, aplicando los validadores que hayan sido agregados a través del método push(ValidadorTicket).
+     *
+     * @param ticket Ticket sobre el cual se aplicarán validaciones.
+     */
     public EstadoTicket ejecutarValidaciones(Ticket ticket) {
         if(actual == null) {
             return EstadoTicket.APROBADO;

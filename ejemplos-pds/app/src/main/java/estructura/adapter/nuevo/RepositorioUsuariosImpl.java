@@ -3,6 +3,9 @@ package estructura.adapter.nuevo;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Implementación del Repositorio de usuarios usando interfaz.
+ */
 class RepositorioUsuariosImpl implements IRepositorioUsuarios {
     private List<IUsuario> usuarios;
 
