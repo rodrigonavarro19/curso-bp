@@ -5,7 +5,7 @@ import java.util.List;
 
 import estructura.adapter.nuevo.IUsuario;
 
-// TODO: extraer superclase para evita duplicidad con LoggerUsuarios
+/** @todo Extraer superclase para evita duplicidad con LoggerUsuarios. */
 public class LoggerObserver implements IReceptor {
     private List<String> colaMensajes = new ArrayList<>();
 
